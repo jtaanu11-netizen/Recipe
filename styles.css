@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap');
+
+/* ========== BASE STYLES ========== */
+body {
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  background-color: #f3e5d7;
+  margin: 0;
+  color: #5f574e;
+}
+
+/* ========== LAYOUT ========== */
+.container {
+  max-width: 700px;
+  width: 90%;
+  margin: 50px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 15px;
+}
+
+/* ========== TOP SECTION ========== */
+img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  color: #302d2c;
+  margin-bottom: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+/* ========== HEADINGS ========== */
+h2 {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #854632;
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #7b284f;
+  margin-bottom: 10px;
+}
+
+/* ========== SECTIONS ========== */
+.prep-time {
+  background-color: #fff5fa;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+/* ========== LISTS ========== */
+ul, ol {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  margin-bottom: 8px;
+}
+
+/* ========== TABLE ========== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+td {
+  padding: 12px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+td:last-child {
+  font-weight: bold;
+  color: #854632;
+}
